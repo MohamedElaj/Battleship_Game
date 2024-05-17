@@ -5,7 +5,7 @@ public class SimpleStartupTestDrive {
         int [] locations = {2, 3, 4};
         dot.setLocationCells(locations);
 
-        int userGuess = 2;
+        int userGuess = 1;
         String result = dot.checkYourself(userGuess);
 
         String testResult = "failed";
